@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+nav li.active a {
+  color: crimson;
+  font-weight: bold;
+  text-decoration: underline;
+}
